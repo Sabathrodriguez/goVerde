@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		100D13B92714B63E006FF87A /* GoVerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoVerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D13B92714B63E006FF87A /* GoVerde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoVerde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		100D13BC2714B63E006FF87A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		100D13BE2714B63E006FF87A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		100D13C02714B63E006FF87A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +46,9 @@
 		100D13C82714B641006FF87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		100D13CB2714B641006FF87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		100D13CD2714B641006FF87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		100D13D22714B641006FF87A /* GoVergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoVergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D13D22714B641006FF87A /* GoVerdeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoVerdeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100D13D62714B641006FF87A /* GoVergeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVergeTests.swift; sourceTree = "<group>"; };
-		100D13DC2714B641006FF87A /* GoVergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoVergeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D13DC2714B641006FF87A /* GoVerdeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoVerdeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100D13E02714B641006FF87A /* GoVergeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVergeUITests.swift; sourceTree = "<group>"; };
 		100D13E22714B641006FF87A /* GoVergeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVergeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		100D13BA2714B63E006FF87A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				100D13B92714B63E006FF87A /* GoVerge.app */,
-				100D13D22714B641006FF87A /* GoVergeTests.xctest */,
-				100D13DC2714B641006FF87A /* GoVergeUITests.xctest */,
+				100D13B92714B63E006FF87A /* GoVerde.app */,
+				100D13D22714B641006FF87A /* GoVerdeTests.xctest */,
+				100D13DC2714B641006FF87A /* GoVerdeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		100D13B82714B63E006FF87A /* GoVerge */ = {
+		100D13B82714B63E006FF87A /* GoVerde */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 100D13E62714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVerge" */;
+			buildConfigurationList = 100D13E62714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVerde" */;
 			buildPhases = (
 				100D13B52714B63E006FF87A /* Sources */,
 				100D13B62714B63E006FF87A /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = GoVerge;
+			name = GoVerde;
 			productName = GoVerge;
-			productReference = 100D13B92714B63E006FF87A /* GoVerge.app */;
+			productReference = 100D13B92714B63E006FF87A /* GoVerde.app */;
 			productType = "com.apple.product-type.application";
 		};
-		100D13D12714B641006FF87A /* GoVergeTests */ = {
+		100D13D12714B641006FF87A /* GoVerdeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 100D13E92714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVergeTests" */;
+			buildConfigurationList = 100D13E92714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVerdeTests" */;
 			buildPhases = (
 				100D13CE2714B641006FF87A /* Sources */,
 				100D13CF2714B641006FF87A /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				100D13D42714B641006FF87A /* PBXTargetDependency */,
 			);
-			name = GoVergeTests;
+			name = GoVerdeTests;
 			productName = GoVergeTests;
-			productReference = 100D13D22714B641006FF87A /* GoVergeTests.xctest */;
+			productReference = 100D13D22714B641006FF87A /* GoVerdeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		100D13DB2714B641006FF87A /* GoVergeUITests */ = {
+		100D13DB2714B641006FF87A /* GoVerdeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 100D13EC2714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVergeUITests" */;
+			buildConfigurationList = 100D13EC2714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVerdeUITests" */;
 			buildPhases = (
 				100D13D82714B641006FF87A /* Sources */,
 				100D13D92714B641006FF87A /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				100D13DE2714B641006FF87A /* PBXTargetDependency */,
 			);
-			name = GoVergeUITests;
+			name = GoVerdeUITests;
 			productName = GoVergeUITests;
-			productReference = 100D13DC2714B641006FF87A /* GoVergeUITests.xctest */;
+			productReference = 100D13DC2714B641006FF87A /* GoVerdeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 100D13B42714B63E006FF87A /* Build configuration list for PBXProject "GoVerge" */;
+			buildConfigurationList = 100D13B42714B63E006FF87A /* Build configuration list for PBXProject "GoVerde" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				100D13B82714B63E006FF87A /* GoVerge */,
-				100D13D12714B641006FF87A /* GoVergeTests */,
-				100D13DB2714B641006FF87A /* GoVergeUITests */,
+				100D13B82714B63E006FF87A /* GoVerde */,
+				100D13D12714B641006FF87A /* GoVerdeTests */,
+				100D13DB2714B641006FF87A /* GoVerdeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		100D13D42714B641006FF87A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100D13B82714B63E006FF87A /* GoVerge */;
+			target = 100D13B82714B63E006FF87A /* GoVerde */;
 			targetProxy = 100D13D32714B641006FF87A /* PBXContainerItemProxy */;
 		};
 		100D13DE2714B641006FF87A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 100D13B82714B63E006FF87A /* GoVerge */;
+			target = 100D13B82714B63E006FF87A /* GoVerde */;
 			targetProxy = 100D13DD2714B641006FF87A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -513,7 +513,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVerge.app/GoVerge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVerde.app/GoVerde";
 			};
 			name = Debug;
 		};
@@ -538,7 +538,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVerge.app/GoVerge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoVerde.app/GoVerde";
 			};
 			name = Release;
 		};
@@ -591,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		100D13B42714B63E006FF87A /* Build configuration list for PBXProject "GoVerge" */ = {
+		100D13B42714B63E006FF87A /* Build configuration list for PBXProject "GoVerde" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				100D13E42714B641006FF87A /* Debug */,
@@ -600,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100D13E62714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVerge" */ = {
+		100D13E62714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVerde" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				100D13E72714B641006FF87A /* Debug */,
@@ -609,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100D13E92714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVergeTests" */ = {
+		100D13E92714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVerdeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				100D13EA2714B641006FF87A /* Debug */,
@@ -618,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100D13EC2714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVergeUITests" */ = {
+		100D13EC2714B641006FF87A /* Build configuration list for PBXNativeTarget "GoVerdeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				100D13ED2714B641006FF87A /* Debug */,
